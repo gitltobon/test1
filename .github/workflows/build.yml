@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: windows
+    runs-on: ubuntu
     steps:
       - uses: actions/checkout@v2
         with:
